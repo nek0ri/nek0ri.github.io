@@ -160,9 +160,12 @@
   }
 
   .u-section-2 .u-group-1 {
-    width: 421px;
     min-height: 402px;
-    margin: 264px -41px 59px;
+    margin-top: 264px;
+    margin-bottom: 59px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-container-layout-1 {
