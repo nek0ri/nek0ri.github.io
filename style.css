@@ -131,7 +131,7 @@ a#style1_btn:hover{/* 超链接在鼠标移入时显示橘黄色 */
 }
 .item2.card:hover, .item2.card:focus {
   /*background: #00005c;*/
-  background-image:url('../dist/03.jpg');
+  background-image:url('images/03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -159,7 +159,7 @@ a#style1_btn:hover{/* 超链接在鼠标移入时显示橘黄色 */
 
 .item7.card:hover, .item7.card:focus {
   /*background: #00005c;*/
-  background:url('../dist/bf1.jpg');
+  background:url('images/bf1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -213,7 +213,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:url('../dist/07.jpg');
+  background-image:url('images/07.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
