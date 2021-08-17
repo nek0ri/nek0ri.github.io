@@ -1,4 +1,4 @@
-// Age calculation by @nekori
+// Age calculation by @_nekori from nek0ri.de
 var mmStamp = 31556736000;//一年走31556736戳
 var mmstT = Math.round(new Date()); //基准时间，单位为毫秒
 var mmsecPsT = 31; //每毫秒走了多少年，与10^12的乘积

@@ -52,7 +52,7 @@ body {
 }
 
 
-/* Hyperlink */
+  /*===================== HYPERLINK ====================*/
 
 a#textColorStyle:link {color:#000000; cursor: ne-resize;}    /* 未被访问的链接 */
 a#textColorStyle:visited {color:#000000;cursor: ne-resize;} /* 已被访问的链接 */
@@ -92,7 +92,8 @@ a#style3:hover{/* 超链接在鼠标移入时明度降低 */
   cursor: ne-resize;
   text-decoration:underline;
 }
-/* gradient */
+
+  /*===================== GRADIENT ====================*/
 
 @-webkit-keyframes gradient {
 	0% {
@@ -188,7 +189,8 @@ a#style3:hover{/* 超链接在鼠标移入时明度降低 */
   #bongo-cat .headphone .speaker path:first-child {
     stroke: var(--cyan);
   }
-  /*for Bongo cat*/
+
+  /*===================== HAUPT ====================*/
 
 
 .orb-canvas {
@@ -231,7 +233,7 @@ strong {
 }
 
 .text-gradient {
-  /*
+  /* 
   background-image: linear-gradient(
     45deg,
     var(--base) 25%,
@@ -299,7 +301,8 @@ strong {
 }
 
 
-/* Not too many browser support this yet but it's good to add! */
+  /*===================== FLEX ====================*/
+
 @media (prefers-contrast: high) {
   .orb-canvas {
     display: none;
