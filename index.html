@@ -17,28 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <script src="jquery-3.6.0.min.js"></script>
-  <script>
-    function resetHtmlFont(){
-      var deviceWidth = document.documentElement.clientWidth;
-      var scale = deviceWidth/640;
-      document.body.style.zoom = scale;
-    }
-    function resize(){
-      if(window.orientation == 90 || window.orientation == -90){
-        resetHtmlFont();
-        orientation = 'landscape';
-        return false;
-      } else if (window.orientation == 0 || window.orientation == 180) {
-        resetHtmlFont();
-        orientation = 'portrait';
-        return false;
-      }
-    }
-    window.onresize = window.onorientationchange = function(){
-      resize();
-    }
-    resize();
-  </script>
+
 
 
 </head>
