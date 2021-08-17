@@ -192,17 +192,6 @@ a#style3:hover{/* 超链接在鼠标移入时明度降低 */
 
   /*===================== HAUPT ====================*/
 
-
-.orb-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-}
-
 strong {
   font-weight: 600;
 }
