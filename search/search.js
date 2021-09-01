@@ -20,7 +20,7 @@ function loadDoc() {
             var i;
             for(i = 1; i <= prcjson.platoons.length; i++){
                 platoonsTable += '<tr>';
-                platoonsTable += '<td>' + '<img src="' + prcjson.platoons[i-1].emblem + '" height="80px" width="80px"/></td><td>[' + prcjson.platoons[i-1].tag + ']<br>' + prcjson.platoons[i-1].name + '</td>';
+                platoonsTable += '<td>' + '<img src="' + prcjson.platoons[i-1].emblem + '" height="80px" width="80px"/></td><td><b>[' + prcjson.platoons[i-1].tag + ']</b><br>' + prcjson.platoons[i-1].name + '<br>' + prcjson.platoons[i-1].description +'</td>';
                 platoonsTable += '</tr>';
             }
             platoonsTable += '</table>';
@@ -84,7 +84,7 @@ function loadDoc() {
         } else { document.getElementById("session").innerHTML = '<h4>最近记录</h4><div class="bbblock"><br>查询不到玩家最近的游戏记录<br>&nbsp;</div><br>'; }
     
 
-        // 记得加个回到顶部
+        // 记得加个回到顶部，以及导航栏
         } else if (this.readyState == 4 && this.status == 404){document.getElementById("result").innerHTML = "查无此人<br>";}//404处理
         else if(this.status == 408 || this.status == 504) {document.getElementById("result").innerHTML = "EA服务器超时，请稍后再试<br>";}//超时处理
     };
